@@ -8,15 +8,20 @@ if (honor_role === true) {
     console.log(`Keep going!`);
 }
 
-if (student_gpa <= 1.9) {
+if (student_gpa <= 1.9) 
+{
     console.log(`F`);
-} else if (student_gpa >= 2.0 && student_gpa <= 2.4) {
+} else if (student_gpa >= 2.0 && student_gpa <= 2.4) 
+{
     console.log(`D`);
-} else if (student_gpa >= 2.5 && student_gpa <= 2.9) {
+} else if (student_gpa >= 2.5 && student_gpa <= 2.9) 
+{
     console.log(`C`);
-} else if (student_gpa >= 3.0 && student_gpa <= 3.4) {
+} else if (student_gpa >= 3.0 && student_gpa <= 3.4) 
+{
     console.log(`B`);
-} else if (student_gpa >= 3.5 && student_gpa <= 4.0) {
+} else if (student_gpa >= 3.5 && student_gpa <= 4.0) 
+{
     console.log(`A`);
 } else {
     console.log(`Systems error`);
@@ -26,7 +31,8 @@ let student_names = [`John`, `Jane`, `Mike`];
 let student_gpas = [2.1, 3.2, 1.2];
 let honor_roles = [true, true, true];
 
-if (honor_roles[0] === true && honor_roles[1] && honor_roles[2]) {
+if (honor_roles[0] === true && honor_roles[1] && honor_roles[2]) 
+{
     console.log(`Rockn'roll!`);
 } else if ((honor_roles[0] === true && honor_roles[1] === true) || (honor_roles[1] === true && honor_roles[2] === true) || (honor_roles[0] === true && honor_roles[2] === true)) 
 {
@@ -35,7 +41,7 @@ if (honor_roles[0] === true && honor_roles[1] && honor_roles[2]) {
     console.log(`Keep up the hard work!`);
 }
 
-student_names.push(`Isael`);
+student_names.push(`James Bond`);
 student_gpas.push(0.8);
 honor_roles.push(true);
 
